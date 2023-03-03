@@ -10,7 +10,8 @@
     "ENV": "bin/ENV.js",
     "DEBUG": "bin/DEBUG.js",
     "PORT": "bin/PORT.js",
-    "CHAI_JEST_SNAPSHOT_UPDATE_ALL": "bin/CHAI_JEST_SNAPSHOT_UPDATE_ALL.js"
+    "CHAI_JEST_SNAPSHOT_UPDATE_ALL": "bin/CHAI_JEST_SNAPSHOT_UPDATE_ALL.js",
+    "USE_LOCAL_API": "bin/USE_LOCAL_API.js"
   },
   "scripts": {
     "test": "mocha"

@@ -28,6 +28,7 @@ describe('bin', () => {
   e('DEBUG');
   e('PORT');
   e('CHAI_JEST_SNAPSHOT_UPDATE_ALL');
+  e('USE_LOCAL_API');
   describe('multiple', () => {
     const e = multiple('node bin/');
     e('NODE_ENV=1 ENV=2');
@@ -35,6 +36,7 @@ describe('bin', () => {
     e('PORT=1 ENV=2');
     e('DEBUG=1 ENV=2');
     e('DEBUG=1 CHAI_JEST_SNAPSHOT_UPDATE_ALL=2');
+    e('USE_LOCAL_API=true NODE_ENV=localhost');
   });
 });
 
